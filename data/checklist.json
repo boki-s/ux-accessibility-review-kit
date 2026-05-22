@@ -1,0 +1,74 @@
+[
+  {
+    "id": "structure-landmarks",
+    "category": "Structure",
+    "title": "Use clear page regions",
+    "description": "Check that the interface has meaningful header, main, navigation, and footer regions where appropriate."
+  },
+  {
+    "id": "structure-headings",
+    "category": "Structure",
+    "title": "Keep headings in order",
+    "description": "Review whether headings describe the content below them and follow a logical hierarchy."
+  },
+  {
+    "id": "readability-contrast",
+    "category": "Readability",
+    "title": "Test text contrast",
+    "description": "Make sure body text, labels, controls, and error messages have enough contrast against their backgrounds."
+  },
+  {
+    "id": "readability-length",
+    "category": "Readability",
+    "title": "Keep lines comfortable",
+    "description": "Avoid long text lines and dense blocks that make scanning difficult, especially on wide screens."
+  },
+  {
+    "id": "keyboard-focus",
+    "category": "Keyboard",
+    "title": "Show visible focus",
+    "description": "Tab through the interface and confirm every interactive element has a visible focus state."
+  },
+  {
+    "id": "keyboard-order",
+    "category": "Keyboard",
+    "title": "Follow a predictable tab order",
+    "description": "Keyboard focus should move in the same order a person visually understands the page."
+  },
+  {
+    "id": "forms-labels",
+    "category": "Forms",
+    "title": "Label every input",
+    "description": "Each input should have a persistent label that remains understandable after the field is filled."
+  },
+  {
+    "id": "forms-errors",
+    "category": "Forms",
+    "title": "Explain errors clearly",
+    "description": "Validation messages should say what happened and how to fix it without relying on color alone."
+  },
+  {
+    "id": "responsive-small",
+    "category": "Responsive",
+    "title": "Review small screens",
+    "description": "Check that content, controls, and navigation work without overlap or tiny tap targets on mobile widths."
+  },
+  {
+    "id": "motion-reduction",
+    "category": "Motion",
+    "title": "Respect reduced motion",
+    "description": "Avoid essential meaning that depends on animation and support reduced-motion preferences when animation is used."
+  },
+  {
+    "id": "content-actions",
+    "category": "Content",
+    "title": "Use specific action labels",
+    "description": "Buttons and links should describe the action or destination, not rely on vague labels like click here."
+  },
+  {
+    "id": "content-empty-states",
+    "category": "Content",
+    "title": "Design helpful empty states",
+    "description": "Empty states should explain what is missing and offer the next useful action when possible."
+  }
+]
