@@ -27,3 +27,9 @@ Small documentation and checklist improvements can ship as patch releases. New w
 ## Community Direction
 
 The project is most useful when it becomes a shared review habit, not a complex audit platform. The maintainer focus is to keep the tool simple enough for quick reviews while making the underlying guidance more trustworthy over time.
+
+## AI and MCP Direction
+
+AI-assisted features should stay optional. They should help reviewers summarize, translate, and organize findings, but the checklist must remain useful without a model provider.
+
+An MCP integration should only be added if it exposes a clear workflow, such as listing checklist items, generating Markdown reports, or drafting issue text from explicit review notes. It should not become the main value of the project.

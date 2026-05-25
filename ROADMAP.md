@@ -22,6 +22,8 @@ This roadmap focuses on turning the kit from a simple checklist into a useful op
 - Create a Figma-friendly checklist version
 - Add a browser extension prototype
 - Add WCAG 2.2 quick reference pages
+- Explore AI-assisted review summaries that use exported Markdown as input
+- Explore a model-independent MCP integration for checklist and report workflows
 - Add community-submitted checklist packs for specific industries
 - Publish a lightweight package or embeddable widget if there is community demand
 

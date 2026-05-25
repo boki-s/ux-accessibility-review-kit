@@ -62,6 +62,7 @@ Open `index.html` in a browser. No build step is required.
 |-- src/
 |   |-- app.js
 |   `-- styles.css
+|-- AI_ASSISTED_WORKFLOWS.md
 |-- CLAUDE_OSS_APPLICATION.md
 |-- CODE_OF_CONDUCT.md
 |-- CONTRIBUTING.md
@@ -76,6 +77,10 @@ Open `index.html` in a browser. No build step is required.
 ## Roadmap
 
 See `ROADMAP.md` for planned improvements, including WCAG mapping, bilingual review content, exportable reports, and design-tool workflows.
+
+## AI-Assisted Workflows
+
+The core tool works without AI. Future AI-assisted workflows could help reviewers summarize notes, translate reports, draft GitHub issues, and connect checklist findings to WCAG references while keeping the checklist model-independent. See `AI_ASSISTED_WORKFLOWS.md`.
 
 ## Example Review
 
