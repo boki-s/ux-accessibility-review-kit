@@ -1,0 +1,33 @@
+name: Accessibility bug
+description: Report an accessibility or usability issue in the kit.
+title: "[Accessibility]: "
+labels:
+  - accessibility
+  - bug
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What accessibility or usability issue did you find?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Describe how someone else can see the issue.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: What should happen instead?
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Browser or assistive technology
+      placeholder: Chrome, Firefox, VoiceOver, NVDA, keyboard-only, etc.

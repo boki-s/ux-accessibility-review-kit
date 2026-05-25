@@ -1,0 +1,32 @@
+name: Feature request
+description: Suggest a feature for the review kit.
+title: "[Feature]: "
+labels:
+  - enhancement
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or opportunity
+      description: What would this feature help people do?
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Suggested solution
+      description: Describe the feature or workflow you would like to see.
+    validations:
+      required: true
+  - type: dropdown
+    id: audience
+    attributes:
+      label: Who benefits most?
+      options:
+        - Designers
+        - Developers
+        - Product teams
+        - Educators or mentors
+        - Contributors
+    validations:
+      required: true
