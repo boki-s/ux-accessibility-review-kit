@@ -24,13 +24,15 @@ body {
 }
 
 button,
-select {
+select,
+textarea {
   font: inherit;
 }
 
 button:focus-visible,
 select:focus-visible,
-input:focus-visible {
+input:focus-visible,
+textarea:focus-visible {
   outline: 3px solid var(--focus);
   outline-offset: 3px;
 }
@@ -88,7 +90,8 @@ label {
 }
 
 select,
-button {
+button,
+textarea {
   min-height: 44px;
   border: 1px solid var(--border);
   border-radius: 6px;
@@ -110,6 +113,15 @@ button {
 
 button:hover {
   background: var(--accent-strong);
+}
+
+textarea {
+  width: 100%;
+  margin-top: 8px;
+  padding: 10px 12px;
+  resize: vertical;
+  background: #fbfaf6;
+  color: var(--text);
 }
 
 .summary {
@@ -160,6 +172,38 @@ button:hover {
   font-size: 0.8rem;
   font-weight: 800;
   text-transform: uppercase;
+}
+
+.wcag-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 14px 0;
+  padding: 0;
+  list-style: none;
+}
+
+.wcag-list a {
+  display: inline-flex;
+  min-height: 30px;
+  align-items: center;
+  padding: 4px 10px;
+  border: 1px solid #b9d6d9;
+  border-radius: 999px;
+  color: var(--accent-strong);
+  font-size: 0.82rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.wcag-list a:hover {
+  border-color: var(--accent);
+  background: #eef7f8;
+}
+
+.note-label {
+  margin-top: 10px;
+  color: var(--text);
 }
 
 @media (max-width: 620px) {

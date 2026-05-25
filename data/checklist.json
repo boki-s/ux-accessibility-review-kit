@@ -1,74 +1,122 @@
 [
   {
     "id": "structure-landmarks",
-    "category": "Structure",
-    "title": "Use clear page regions",
-    "description": "Check that the interface has meaningful header, main, navigation, and footer regions where appropriate."
+    "category": { "en": "Structure", "sr": "Struktura" },
+    "title": { "en": "Use clear page regions", "sr": "Koristi jasne regione stranice" },
+    "description": {
+      "en": "Check that the interface has meaningful header, main, navigation, and footer regions where appropriate.",
+      "sr": "Proveri da interfejs ima smislen header, main, navigation i footer region gde je to potrebno."
+    },
+    "wcag": [{ "id": "1.3.1", "label": "Info and Relationships", "url": "https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships.html" }]
   },
   {
     "id": "structure-headings",
-    "category": "Structure",
-    "title": "Keep headings in order",
-    "description": "Review whether headings describe the content below them and follow a logical hierarchy."
+    "category": { "en": "Structure", "sr": "Struktura" },
+    "title": { "en": "Keep headings in order", "sr": "Drži naslove u logičnom redosledu" },
+    "description": {
+      "en": "Review whether headings describe the content below them and follow a logical hierarchy.",
+      "sr": "Proveri da li naslovi opisuju sadržaj ispod sebe i prate logičnu hijerarhiju."
+    },
+    "wcag": [{ "id": "2.4.6", "label": "Headings and Labels", "url": "https://www.w3.org/WAI/WCAG22/Understanding/headings-and-labels.html" }]
   },
   {
     "id": "readability-contrast",
-    "category": "Readability",
-    "title": "Test text contrast",
-    "description": "Make sure body text, labels, controls, and error messages have enough contrast against their backgrounds."
+    "category": { "en": "Readability", "sr": "Čitljivost" },
+    "title": { "en": "Test text contrast", "sr": "Proveri kontrast teksta" },
+    "description": {
+      "en": "Make sure body text, labels, controls, and error messages have enough contrast against their backgrounds.",
+      "sr": "Proveri da tekst, labele, kontrole i poruke grešaka imaju dovoljan kontrast u odnosu na pozadinu."
+    },
+    "wcag": [{ "id": "1.4.3", "label": "Contrast Minimum", "url": "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html" }]
   },
   {
     "id": "readability-length",
-    "category": "Readability",
-    "title": "Keep lines comfortable",
-    "description": "Avoid long text lines and dense blocks that make scanning difficult, especially on wide screens."
+    "category": { "en": "Readability", "sr": "Čitljivost" },
+    "title": { "en": "Keep lines comfortable", "sr": "Drži redove teksta preglednim" },
+    "description": {
+      "en": "Avoid long text lines and dense blocks that make scanning difficult, especially on wide screens.",
+      "sr": "Izbegavaj preduge redove i guste blokove teksta koji otežavaju skeniranje sadržaja."
+    },
+    "wcag": [{ "id": "1.4.8", "label": "Visual Presentation", "url": "https://www.w3.org/WAI/WCAG22/Understanding/visual-presentation.html" }]
   },
   {
     "id": "keyboard-focus",
-    "category": "Keyboard",
-    "title": "Show visible focus",
-    "description": "Tab through the interface and confirm every interactive element has a visible focus state."
+    "category": { "en": "Keyboard", "sr": "Tastatura" },
+    "title": { "en": "Show visible focus", "sr": "Prikaži vidljiv fokus" },
+    "description": {
+      "en": "Tab through the interface and confirm every interactive element has a visible focus state.",
+      "sr": "Prođi kroz interfejs tasterom Tab i proveri da svaka interaktivna kontrola ima vidljivo fokus stanje."
+    },
+    "wcag": [{ "id": "2.4.7", "label": "Focus Visible", "url": "https://www.w3.org/WAI/WCAG22/Understanding/focus-visible.html" }]
   },
   {
     "id": "keyboard-order",
-    "category": "Keyboard",
-    "title": "Follow a predictable tab order",
-    "description": "Keyboard focus should move in the same order a person visually understands the page."
+    "category": { "en": "Keyboard", "sr": "Tastatura" },
+    "title": { "en": "Follow a predictable tab order", "sr": "Prati predvidljiv Tab redosled" },
+    "description": {
+      "en": "Keyboard focus should move in the same order a person visually understands the page.",
+      "sr": "Fokus tastature treba da se kreće redosledom koji prati vizuelno razumevanje stranice."
+    },
+    "wcag": [{ "id": "2.4.3", "label": "Focus Order", "url": "https://www.w3.org/WAI/WCAG22/Understanding/focus-order.html" }]
   },
   {
     "id": "forms-labels",
-    "category": "Forms",
-    "title": "Label every input",
-    "description": "Each input should have a persistent label that remains understandable after the field is filled."
+    "category": { "en": "Forms", "sr": "Forme" },
+    "title": { "en": "Label every input", "sr": "Obeleži svako polje" },
+    "description": {
+      "en": "Each input should have a persistent label that remains understandable after the field is filled.",
+      "sr": "Svako polje treba da ima stalnu labelu koja ostaje razumljiva i nakon unosa."
+    },
+    "wcag": [{ "id": "3.3.2", "label": "Labels or Instructions", "url": "https://www.w3.org/WAI/WCAG22/Understanding/labels-or-instructions.html" }]
   },
   {
     "id": "forms-errors",
-    "category": "Forms",
-    "title": "Explain errors clearly",
-    "description": "Validation messages should say what happened and how to fix it without relying on color alone."
+    "category": { "en": "Forms", "sr": "Forme" },
+    "title": { "en": "Explain errors clearly", "sr": "Objasni greške jasno" },
+    "description": {
+      "en": "Validation messages should say what happened and how to fix it without relying on color alone.",
+      "sr": "Poruke validacije treba da kažu šta se desilo i kako se popravlja, bez oslanjanja samo na boju."
+    },
+    "wcag": [{ "id": "3.3.1", "label": "Error Identification", "url": "https://www.w3.org/WAI/WCAG22/Understanding/error-identification.html" }]
   },
   {
     "id": "responsive-small",
-    "category": "Responsive",
-    "title": "Review small screens",
-    "description": "Check that content, controls, and navigation work without overlap or tiny tap targets on mobile widths."
+    "category": { "en": "Responsive", "sr": "Responsive" },
+    "title": { "en": "Review small screens", "sr": "Proveri male ekrane" },
+    "description": {
+      "en": "Check that content, controls, and navigation work without overlap or tiny tap targets on mobile widths.",
+      "sr": "Proveri da sadržaj, kontrole i navigacija rade bez preklapanja i premalih zona za dodir."
+    },
+    "wcag": [{ "id": "1.4.10", "label": "Reflow", "url": "https://www.w3.org/WAI/WCAG22/Understanding/reflow.html" }]
   },
   {
     "id": "motion-reduction",
-    "category": "Motion",
-    "title": "Respect reduced motion",
-    "description": "Avoid essential meaning that depends on animation and support reduced-motion preferences when animation is used."
+    "category": { "en": "Motion", "sr": "Animacija" },
+    "title": { "en": "Respect reduced motion", "sr": "Poštuj reduced motion podešavanje" },
+    "description": {
+      "en": "Avoid essential meaning that depends on animation and support reduced-motion preferences when animation is used.",
+      "sr": "Ne oslanjaj ključno značenje samo na animaciju i podrži reduced-motion podešavanja kada se animacija koristi."
+    },
+    "wcag": [{ "id": "2.3.3", "label": "Animation from Interactions", "url": "https://www.w3.org/WAI/WCAG22/Understanding/animation-from-interactions.html" }]
   },
   {
     "id": "content-actions",
-    "category": "Content",
-    "title": "Use specific action labels",
-    "description": "Buttons and links should describe the action or destination, not rely on vague labels like click here."
+    "category": { "en": "Content", "sr": "Sadržaj" },
+    "title": { "en": "Use specific action labels", "sr": "Koristi konkretne nazive akcija" },
+    "description": {
+      "en": "Buttons and links should describe the action or destination, not rely on vague labels like click here.",
+      "sr": "Dugmad i linkovi treba da opisuju akciju ili destinaciju, umesto nejasnih labela kao što je klikni ovde."
+    },
+    "wcag": [{ "id": "2.4.4", "label": "Link Purpose", "url": "https://www.w3.org/WAI/WCAG22/Understanding/link-purpose-in-context.html" }]
   },
   {
     "id": "content-empty-states",
-    "category": "Content",
-    "title": "Design helpful empty states",
-    "description": "Empty states should explain what is missing and offer the next useful action when possible."
+    "category": { "en": "Content", "sr": "Sadržaj" },
+    "title": { "en": "Design helpful empty states", "sr": "Dizajniraj korisna prazna stanja" },
+    "description": {
+      "en": "Empty states should explain what is missing and offer the next useful action when possible.",
+      "sr": "Prazna stanja treba da objasne šta nedostaje i ponude sledeću korisnu akciju kada je moguće."
+    },
+    "wcag": [{ "id": "3.3.5", "label": "Help", "url": "https://www.w3.org/WAI/WCAG22/Understanding/help.html" }]
   }
 ]

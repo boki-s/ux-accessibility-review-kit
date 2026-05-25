@@ -9,9 +9,9 @@
   <body>
     <main class="shell">
       <header class="intro">
-        <p class="eyebrow">Open-source UX tool</p>
-        <h1>UX Accessibility Review Kit</h1>
-        <p>
+        <p id="eyebrow" class="eyebrow">Open-source UX tool</p>
+        <h1 id="pageTitle">UX Accessibility Review Kit</h1>
+        <p id="pageDescription">
           A practical checklist for reviewing interfaces before handoff,
           launch, or portfolio publication.
         </p>
@@ -19,17 +19,25 @@
 
       <section class="toolbar" aria-label="Checklist filters">
         <label>
-          Category
+          <span id="categoryLabel">Category</span>
           <select id="categoryFilter">
             <option value="all">All categories</option>
           </select>
         </label>
+        <label>
+          <span id="languageLabel">Language</span>
+          <select id="languageSelect">
+            <option value="en">English</option>
+            <option value="sr">Srpski</option>
+          </select>
+        </label>
+        <button id="exportButton" type="button">Export Markdown</button>
         <button id="resetButton" type="button">Reset checks</button>
       </section>
 
       <section class="summary" aria-live="polite">
         <strong id="completedCount">0</strong>
-        <span>checks completed</span>
+        <span id="completedLabel">checks completed</span>
       </section>
 
       <section id="checklist" class="checklist" aria-label="Review checklist"></section>

@@ -1,10 +1,15 @@
 # UX Accessibility Review Kit
 
+[![Deploy GitHub Pages](https://github.com/boki-s/ux-accessibility-review-kit/actions/workflows/pages.yml/badge.svg)](https://github.com/boki-s/ux-accessibility-review-kit/actions/workflows/pages.yml)
+[![Release](https://img.shields.io/github/v/release/boki-s/ux-accessibility-review-kit)](https://github.com/boki-s/ux-accessibility-review-kit/releases)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
 An open-source checklist and lightweight review tool for designers, product teams, and early-stage builders who want to catch common accessibility and usability issues before handoff.
 
 The project turns a UX review into a repeatable process, with checks for structure, readability, keyboard access, forms, responsive layouts, motion, and content clarity.
 
 ![UX Accessibility Review Kit preview](docs/demo-preview.svg)
+![Screenshot of the live checklist interface](docs/screenshot.png)
 
 ## Demo
 
@@ -28,6 +33,10 @@ The goal is not to replace a full WCAG audit. It is a practical first pass that 
 ## What Is Included
 
 - A browser-based checklist app in plain HTML, CSS, and JavaScript
+- WCAG references for each checklist item
+- English and Serbian checklist content
+- Review notes for each checklist item
+- Markdown export for shareable review reports
 - A structured JSON checklist that can be reused in other tools
 - Saved local progress for repeated reviews
 - Contribution guidelines for adding new review items
@@ -48,6 +57,8 @@ Open `index.html` in a browser. No build step is required.
 |   `-- checklist.json
 |-- docs/
 |   `-- demo-preview.svg
+|-- examples/
+|   `-- login-form-review.md
 |-- src/
 |   |-- app.js
 |   `-- styles.css
@@ -55,6 +66,7 @@ Open `index.html` in a browser. No build step is required.
 |-- CODE_OF_CONDUCT.md
 |-- CONTRIBUTING.md
 |-- LICENSE
+|-- MAINTAINER_NOTES.md
 |-- ROADMAP.md
 |-- SECURITY.md
 |-- index.html
@@ -64,6 +76,10 @@ Open `index.html` in a browser. No build step is required.
 ## Roadmap
 
 See `ROADMAP.md` for planned improvements, including WCAG mapping, bilingual review content, exportable reports, and design-tool workflows.
+
+## Example Review
+
+See `examples/login-form-review.md` for a sample review showing how checklist notes can become actionable feedback.
 
 ## Contributing
 
